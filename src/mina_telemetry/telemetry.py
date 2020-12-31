@@ -1,10 +1,11 @@
-import os
 import json
-import requests
-import plotly.graph_objects as go
+import os
+
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
+import plotly.graph_objects as go
+import requests
 
 
 def load_telemetry() -> list:
