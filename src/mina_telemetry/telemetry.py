@@ -9,7 +9,7 @@ import requests
 
 
 def load_telemetry() -> list:
-    with open("/Users/Francesco/mina-telemetry.json", "r") as f:
+    with open("/home/Francesco/mina-telemetry.json", "r") as f:
         return [json.loads(line) for line in f]
 
 def get_node_data(ip: str) -> dict:
